@@ -21,6 +21,8 @@ class MyApp extends StatelessWidget {
   static FirebaseAnalyticsObserver observer =
       FirebaseAnalyticsObserver(analytics: analytics);
 
+      
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
